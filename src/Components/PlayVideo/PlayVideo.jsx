@@ -18,10 +18,18 @@ const PlayVideo = () => {
                 <div>
                     <span><img src={like} alt='like'/> 125</span>
                     <span><img src={dislike} alt='dislike'/> 2</span>
-                    <span><img src={share} alt='share'/> share</span>
-                    <span><img src={like} alt='like'/> 125</span>
-                    <span><img src={like} alt='like'/> 125</span>
+                    <span><img src={share} alt='share'/> Share</span>
+                    <span><img src={save} alt='like'/> Save</span>
                 </div>
+            </div>
+            <hr />
+            <div className='publisher'>
+                <img src={jack} alt='publisher'/>
+                <div> 
+                    <p>GreatStack</p>
+                    <span>1M Subscribers</span>
+                </div>
+                <button>Subscribe</button>
             </div>
         </div>
     )
