@@ -19,7 +19,7 @@ const Navbar = ({setSidebar}) => {
                     <img className='logo' src={logo} alt='logo' />
                 </div>
                 <div className="nav-middle flex-div">
-                    <div className="search-box div-flex">
+                    <div className="search-box flex-div">
                         <input type="text" placeholder="Search" />
                         <img className='search' src={search} alt='search-logo'/>
                     </div>

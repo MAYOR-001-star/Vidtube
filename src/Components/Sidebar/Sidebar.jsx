@@ -10,10 +10,10 @@ import tech from '../../assets/tech.png'
 import entertainment from '../../assets/entertainment.png'
 import jack from '../../assets/jack.png'
 import blogs from '../../assets/blogs.png'
-import simon from '../../assets/simon.png'
-import tom from '../../assets/tom.png'
-import megan from '../../assets/megan.png'
-import cameron from '../../assets/cameron.png'
+// import simon from '../../assets/simon.png'
+// import tom from '../../assets/tom.png'
+// import megan from '../../assets/megan.png'
+// import cameron from '../../assets/cameron.png'
 
 const Sidebar = ({Sidebar}) => {
     return (
@@ -53,18 +53,18 @@ const Sidebar = ({Sidebar}) => {
                 <div className="side-link">
                     <img src={jack} alt='jack-icon'/><p>PewDiePie</p>
                 </div>
-                <div className="side-link">
+                {/* <div className="side-link">
                     <img src={simon} alt='simon-icon'/><p>Mr Beast</p>
-                </div>
-                <div className="side-link">
+                </div> */}
+                {/* <div className="side-link">
                     <img src={tom} alt='tom-icon'/><p>Justin Bieber</p>
-                </div>
-                <div className="side-link">
+                </div> */}
+                {/* <div className="side-link">
                     <img src={megan} alt='megan-icon'/><p>5-minute Crafts</p>
                 </div>
                 <div className="side-link">
                     <img src={cameron} alt='cameron-icon'/><p>Nas Daily</p>
-                </div>
+                </div> */}
             </div>
         </div>
     )
