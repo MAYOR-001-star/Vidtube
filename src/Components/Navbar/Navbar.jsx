@@ -7,14 +7,15 @@ import notificationIcon from '../../Assets/notification.png'
 import profileIcon from '../../Assets/jack.png'
 import uploadIcon from '../../Assets/upload.png'
 import moreIcon from '../../Assets/more.png'
+import Sidebar from '../Sidebar/Sidebar'
 
 
-const Navbar = () => {
+const Navbar = ({setSidebar}) => {
     return (
         <div>
             <nav>
                 <div className='nav-left flex-div'>
-                    <img className='menu-logo' src={menuIcon} alt='menu-logo' />
+                    <img className='menu-logo' src={menuIcon} alt='menu-logo' onClick={()=>setSidebar(prev=>!prev)} />
                     <img className='logo' src={logo} alt='logo' />
                 </div>
                 <div className="nav-middle flex-div">
