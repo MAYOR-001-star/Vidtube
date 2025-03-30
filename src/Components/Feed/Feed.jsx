@@ -8,6 +8,7 @@ import thumbnail5 from '../../assets/thumbnail5.png'
 import thumbnail6 from '../../assets/thumbnail6.png'
 import thumbnail7 from '../../assets/thumbnail7.png'
 import thumbnail8 from '../../assets/thumbnail8.png'
+import {Link} from 'react-router-dom'
 
 const Feed = () => {
     const feedData = [
@@ -114,12 +115,12 @@ const Feed = () => {
             {
                 feedData.map((item, index)=>{
                     return(
-                        <div className='card' key={index}>
+                        <Link to='video/20/4521' className='card' key={index}>
                             <img src={item.feedImage} alt={item.feedContent}/>
                             <h2>{item.feedTitle}</h2>
                             <h3>{item.feedAuthor}</h3>
                             <p>{item.feedContent}</p>
-                        </div>
+                        </Link>
                     )
                 })
             }

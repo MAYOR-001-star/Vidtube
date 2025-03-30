@@ -6,14 +6,14 @@ import dislike from '../../assets/dislike.png'
 import share from '../../assets/share.png'
 import save from '../../assets/save.png'
 import jack from '../../assets/jack.png'
-import user_profile from '../../assets/user_profile.png'
+import user_profile from '../../assets/user_profile.jpg'
 
 const PlayVideo = () => {
     return (
         <div className='play-video'>
             <video src={video1} controls autoPlay muted></video>
             <h3>Best Youtube Channel To Learn Web Development</h3>
-            <div>
+            <div className="play-video-info">
                 <p>1525 Views &bull; 2days ago</p>
                 <div>
                     <span><img src={like} alt='like'/> 125</span>
@@ -38,7 +38,61 @@ const PlayVideo = () => {
                 <div className="comment">
                     <img src={user_profile} alt='user-profile' />
                     <div>
-                        <h3></h3>
+                        <h3>Jack Nicholson <span>1 day ago</span></h3>
+                        <p></p>
+                        <div className="comment-action">
+                            <img src={like} alt="like-icon" />
+                            <span>244</span>
+                            <img src={dislike} alt='dislike-icon'/>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt='user-profile' />
+                    <div>
+                        <h3>Jack Nicholson <span>1 day ago</span></h3>
+                        <p></p>
+                        <div className="comment-action">
+                            <img src={like} alt="like-icon" />
+                            <span>244</span>
+                            <img src={dislike} alt='dislike-icon'/>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt='user-profile' />
+                    <div>
+                        <h3>Jack Nicholson <span>1 day ago</span></h3>
+                        <p></p>
+                        <div className="comment-action">
+                            <img src={like} alt="like-icon" />
+                            <span>244</span>
+                            <img src={dislike} alt='dislike-icon'/>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt='user-profile' />
+                    <div>
+                        <h3>Jack Nicholson <span>1 day ago</span></h3>
+                        <p></p>
+                        <div className="comment-action">
+                            <img src={like} alt="like-icon" />
+                            <span>244</span>
+                            <img src={dislike} alt='dislike-icon'/>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt='user-profile' />
+                    <div>
+                        <h3>Jack Nicholson <span>1 day ago</span></h3>
+                        <p></p>
+                        <div className="comment-action">
+                            <img src={like} alt="like-icon" />
+                            <span>244</span>
+                            <img src={dislike} alt='dislike-icon'/>
+                        </div>
                     </div>
                 </div>
             </div>
