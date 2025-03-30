@@ -73,3 +73,19 @@
     border-radius: 4px;
     cursor: poi 
 }
+
+.vid-description{
+    padding-left: 55px;
+    margin: 15px 0;
+}
+
+.vid-description h4{
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 15px;
+}
+.vid-description p{
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 5px;
+}
