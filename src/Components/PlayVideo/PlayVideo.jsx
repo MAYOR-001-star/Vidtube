@@ -39,7 +39,7 @@ const PlayVideo = () => {
                     <img src={user_profile} alt='user-profile' />
                     <div>
                         <h3>Jack Nicholson <span>1 day ago</span></h3>
-                        <p></p>
+                        <p>GreatStack is a popular YouTube channel that teaches web development through clear, beginner-friendly tutorials. Covering everything from HTML, CSS, and JavaScript to full-stack frameworks like React and Node.js, his content helps aspiring developers build real-world projects efficiently.</p>
                         <div className="comment-action">
                             <img src={like} alt="like-icon" />
                             <span>244</span>
@@ -51,7 +51,7 @@ const PlayVideo = () => {
                     <img src={user_profile} alt='user-profile' />
                     <div>
                         <h3>Jack Nicholson <span>1 day ago</span></h3>
-                        <p></p>
+                        <p>GreatStack is a popular YouTube channel that teaches web development through clear, beginner-friendly tutorials. Covering everything from HTML, CSS, and JavaScript to full-stack frameworks like React and Node.js, his content helps aspiring developers build real-world projects efficiently.</p>
                         <div className="comment-action">
                             <img src={like} alt="like-icon" />
                             <span>244</span>
@@ -63,7 +63,7 @@ const PlayVideo = () => {
                     <img src={user_profile} alt='user-profile' />
                     <div>
                         <h3>Jack Nicholson <span>1 day ago</span></h3>
-                        <p></p>
+                        <p>GreatStack is a popular YouTube channel that teaches web development through clear, beginner-friendly tutorials. Covering everything from HTML, CSS, and JavaScript to full-stack frameworks like React and Node.js, his content helps aspiring developers build real-world projects efficiently.</p>
                         <div className="comment-action">
                             <img src={like} alt="like-icon" />
                             <span>244</span>
@@ -75,7 +75,7 @@ const PlayVideo = () => {
                     <img src={user_profile} alt='user-profile' />
                     <div>
                         <h3>Jack Nicholson <span>1 day ago</span></h3>
-                        <p></p>
+                        <p>GreatStack is a popular YouTube channel that teaches web development through clear, beginner-friendly tutorials. Covering everything from HTML, CSS, and JavaScript to full-stack frameworks like React and Node.js, his content helps aspiring developers build real-world projects efficiently.</p>
                         <div className="comment-action">
                             <img src={like} alt="like-icon" />
                             <span>244</span>
@@ -87,7 +87,7 @@ const PlayVideo = () => {
                     <img src={user_profile} alt='user-profile' />
                     <div>
                         <h3>Jack Nicholson <span>1 day ago</span></h3>
-                        <p></p>
+                        <p>GreatStack is a popular YouTube channel that teaches web development through clear, beginner-friendly tutorials. Covering everything from HTML, CSS, and JavaScript to full-stack frameworks like React and Node.js, his content helps aspiring developers build real-world projects efficiently.</p>
                         <div className="comment-action">
                             <img src={like} alt="like-icon" />
                             <span>244</span>
