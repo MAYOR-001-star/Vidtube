@@ -15,54 +15,54 @@ import blogs from '../../assets/blogs.png'
 // import megan from '../../assets/megan.png'
 // import cameron from '../../assets/cameron.png'
 
-const Sidebar = ({Sidebar}) => {
+const Sidebar = ({Sidebar, category, setCategory}) => {
     return (
         <div className={`sidebar ${Sidebar? "": "small-sidebar"}`}>
             <div className="shortcut-links">
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={home} alt='home-icon'/><p>Home</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={game_icon} alt='game-icon'/><p>Gaming</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={automobiles} alt='automobiles-icon'/><p>Automobiles</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={sports} alt='sports-icon'/><p>Sports</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={entertainment} alt='entertainment-icon'/><p>Entertainment</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={tech} alt='tech-icon'/><p>Technology</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={music} alt='music-icon'/><p>Music</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={blogs} alt='blogs-icon'/><p>Blogs</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={news} alt='news-icon'/><p>News</p>
                 </div>
                 <hr/ >
             </div>
             <div className="subscribed-list">
                 <h3>Subscribed</h3>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={jack} alt='jack-icon'/><p>PewDiePie</p>
                 </div>
-                {/* <div className="side-link">
+                {/* <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={simon} alt='simon-icon'/><p>Mr Beast</p>
                 </div> */}
-                {/* <div className="side-link">
+                {/* <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={tom} alt='tom-icon'/><p>Justin Bieber</p>
                 </div> */}
-                {/* <div className="side-link">
+                {/* <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={megan} alt='megan-icon'/><p>5-minute Crafts</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={cameron} alt='cameron-icon'/><p>Nas Daily</p>
                 </div> */}
             </div>
