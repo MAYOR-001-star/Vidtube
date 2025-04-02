@@ -44,3 +44,42 @@ nav{
     width: 25px;
     border-radius: 50%;
 }
+
+
+@media (max-width: 900px) {
+    .nav-left .logo{
+        width: 90px;
+    } 
+    .nav-left .menu-logo{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        width: 30px;
+        display: block;
+    }
+}
+
+/* @media (max-width: 480px) {
+    .nav-left .logo{
+        width: 80px;
+    }
+    .nav-left .menu-logo{
+        width: 18px;
+    }
+    .nav-middle .search-box input{
+        width: 150px;
+    }
+    .nav-right img{
+        width: 18px;
+        margin-right: 10px;
+    }
+    .nav-right .user-icon{
+        width: 18px;
+    }
+} */

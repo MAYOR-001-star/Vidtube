@@ -21,3 +21,20 @@
     font-size: 13px;
     margin-bottom: 5px;
 }
+
+@media (max-width:900px){
+    .recommended{
+        flex-basis: 100%;
+    }
+    /* .side-video-list{
+        flex-wrap: wrap;
+    }
+    .side-video-list img{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .vid-info{
+        flex-basis: 100%;
+    } */
+    
+}

@@ -75,3 +75,25 @@
     transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 900px) {
+    .sidebar{
+        display: none;
+    }
+    /* .small-sidebar{
+        width: 100%;
+        padding-left: 2%;
+    }
+    .small-sidebar p{
+        display: block;
+    }
+    .small-sidebar h3{
+        display: block;
+    }
+    .small-sidebar hr{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .small-sidebar .shortcut-links{
+        display: none;
+    } */
+}
