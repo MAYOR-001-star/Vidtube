@@ -15,11 +15,18 @@
 
 .vid-info{
     flex-basis: 49%;
+    padding-left: 2%;
+    color: black;
 }
 
 .vid-info h4{
     font-size: 13px;
     margin-bottom: 5px;
+}
+
+.vid-info p{
+    font-size: 12px;
+    color: #666;
 }
 
 @media (max-width:900px){
