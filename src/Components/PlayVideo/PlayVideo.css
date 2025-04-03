@@ -94,6 +94,7 @@
 .show-more{
     color: #222;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .comment{
